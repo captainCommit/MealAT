@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  min-width: 20em;
+  position: relative;
+  font-family:cursive;
+  color: #ecf7ee;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: cursive;
+  font-weight: bold;
+  color:blue;
+}
+#home,
+#order,
+#contact,
+#contactus
+{
+  min-height: 100vh;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+#home {
+    background: url('salad2.jpg') no-repeat center;
+  background-size: cover;
+  padding-top: 10%;
+}
+#order {
+  background: url('csalad.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 3em;
+}
+#contact {
+  background: url('chef.jpg')no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 3em;
+}
+.card{
+  background: transparent;
+  border: 0px solid hsla(0, 0%, 90%, 1);
+}
+.card>a {
+  text-decoration: none;
+  color: #09611c;
+  font-weight: bold;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.card-deck {
+  padding-top: 0.6rem;
+  display: flex;}
+  .card-deck {
+    justify-content: flex-end;
+  
+}
+
+#contactus {
+  background: url('spices2.jpg')no-repeat center center fixed;
+}
+.fa {
+  font-size: 6em;
+  margin-left: .1em;
+  color: hsl(192, 89%, 48%);	
+  flex: 1 1 auto;
+}
+.fa:hover {
+  color: hsla(0, 0%, 15%, .8);
+  ;
+}
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 20%;
+  padding-right: .8em;
+}
+.socialLinks {
+  padding-right: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#contactus {
+  font-size: 2em;
+}
+.bg-faded {
+  background: hsla(0, 0%, 90%, .3) !important;
+}
+.navbar-toggleable-md navbar-light .nav-link, #collapseButton {
+  color: hsla(0, 0%, 0%, 0.5);
+}
+.navbar-toggleable-md .navbar-brand {
+  color: hsla(0, 0%, 0%, 1);
+}
+.text-md-center { 
+  text-align: center;
+  padding-top:2em;
+  font-size: 52px;
+  color:white;
+}
+.navbar {
+  position:fixed; 
+  width:100%;  
+  z-index: 99 !important;
+}
+.bg-tourney {
+    position: absolute;
+    top: -40px;
+    left: -10px;
+    width: 145px;
+    height: 80px;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    border-right: 3px solid #5A7A02;
+    overflow: hidden;
+}
